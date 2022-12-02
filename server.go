@@ -32,6 +32,8 @@ var (
 	router         *echo.Echo
 )
 
+// trigger
+
 // @title Fruits API
 // @version 1.0
 // @description The Fruits API that defines few REST operations with Fruits used for demos
