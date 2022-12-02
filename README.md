@@ -1,4 +1,4 @@
-trigger
+trigger now
 
 # Fruits API
 
