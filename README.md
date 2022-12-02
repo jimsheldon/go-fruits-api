@@ -1,3 +1,5 @@
+trigger
+
 # Fruits API
 
 A simple Fruits REST API built in `golang` using Labstack's [Echo](https://https://echo.labstack.com/]).
