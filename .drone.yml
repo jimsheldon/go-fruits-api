@@ -48,7 +48,7 @@ steps:
     image: golang:1.19
     pull: if-not-exists
     commands:
-      - go build -ldflags "-extldflags=-static" -o release/linux/amd64/harness-migrate
+      - go build -ldflags "-extldflags=-static" -o release/linux/amd64/go-fruits-api
 
   - name: publish
     image: plugins/docker
