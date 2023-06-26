@@ -1,7 +1,7 @@
 FROM debian:stable
 
 # Copy the harness-migrate binary into the container
-ADD release/linux/amd64/harness-migrate /bin/harness-migrate
+ADD release/linux/amd64/go-fruits-api /bin/go-fruits-api
 
 # Set the command to run when the container starts
-ENTRYPOINT ["/bin/harness-migrate"]
+ENTRYPOINT ["/bin/go-fruits-api"]
