@@ -64,7 +64,7 @@ steps:
           - pull_request
 
 services:
-  - name: postgresql
+  - name: postgres
     image: postgres:14.4-alpine
     environment:
       POSTGRES_PORT: 5432
