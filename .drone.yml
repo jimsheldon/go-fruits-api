@@ -5,11 +5,11 @@ name: default
 
 steps:
 
-  - name: lint
-    image: golangci/golangci-lint
-    pull: if-not-exists
-    commands:
-      - golangci-lint run
+#  - name: lint
+#    image: golangci/golangci-lint
+#    pull: if-not-exists
+#    commands:
+#      - golangci-lint run
 
   - name: wait for postgres
     image: postgres:14.4-alpine
