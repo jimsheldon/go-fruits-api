@@ -1,4 +1,4 @@
-FROM alpine:3 as alpine
+FROM debian:stable
 
 # Copy the harness-migrate binary into the container
 ADD release/linux/amd64/harness-migrate /bin/harness-migrate
