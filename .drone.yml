@@ -40,6 +40,12 @@ steps:
   - name: test
     image: golang:1.19
     pull: if-not-exists
+    environment:
+      POSTGRES_HOST: localhost
+      POSTGRES_PORT: 5432
+      POSTGRES_PASSWORD: pa55Word!
+      POSTGRES_USER: demo
+      POSTGRES_DB: demodb
     commands:
       - go clean -testcache
       - go test -race ./... -v
