@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_jimsheldon_go_fruits_api_1708026129578-pr-trigger-input-set
+  identifier: Build_jimsheldon_go_fruits_api_1708026129578prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_jimsheldon_go_fruits_api_1708026129578
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
